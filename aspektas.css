@@ -2,12 +2,12 @@ title {
   font-size: x-small;
 }
 li {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 h1 {
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 body h2 {
   font-family: 'Courier New', Courier, monospace;
@@ -32,7 +32,7 @@ header ul {
   background-color: #333;
 }
 header p {
-    color:rgb(182, 182, 182);
+  color:rgb(182, 182, 182);
 }
 header li {
   float: left;
@@ -51,10 +51,10 @@ header a {
 }
 
 body {
-    background-color: rgb(182, 182, 182);
+  background-color: rgb(182, 182, 182);
 }
 #page {
-    background-color: rgb(119, 119, 119);
+  background-color: rgb(119, 119, 119);
 
 }
 #panel {
@@ -82,13 +82,14 @@ body {
 }
 footer {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #999999;
+  background-color: ;
   padding-top: 30px;
   text-align: center;
-  position: absolute;
+  position: -webkit-sticky;
   bottom: 0;
   width: 100%;
-
+  margin-top: 30px;
+  text-decoration-color: #ff0000;
 }
 .center {
   position: absolute;
@@ -97,3 +98,49 @@ footer {
   transform: translate(-50%, -50%);
   padding: 10px;
   }
+  
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 10px: color: white;
+  cursor: pointer;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+}
+
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(182, 182, 182);
+  min-width: 450px;
+  overflow: auto;
+}
+.dropdown-content p {
+  border-style: dashed;
+}
+
+.dropdown-content a {
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
